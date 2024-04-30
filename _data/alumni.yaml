@@ -1,0 +1,39 @@
+# This file contains all alumni displayed on https://chandar-lab.github.io/people/
+# Once a member becomes inactive, their details should be moved from people.yaml to alumni.yaml.
+# Note that the format of alumni.yaml is slightly different from people.yaml.
+
+# The title field must be either: pi, postdoc, phd, or intern
+# The profile_page must be true or false. Set to false if the person already have an entry
+#   in either the alumni.yaml or people.yaml file. This is to prevent generating a profile
+#   page multiple times for the same person, as this will generate a warning.
+# The website field is optional.
+# The next field must contain both english (en) and french (fr) translations.
+# People will be sorted by period.end
+
+- name: Nick Zerbel
+  title: phd
+  picture: nick
+  website: https://nicholaszerbel.wordpress.com/
+  profile_page: false
+  period:
+    start: 2018-08-31
+    end: 2023-09-01
+  next: Research Assistant @ Mila
+
+- name: Andrew Festa
+  title: master
+  profile_page: false
+  website: https://www.linkedin.com/in/andrew-festa
+  period:
+    start: 2021-05-01
+    end: 2023-09-01
+  next: Industry
+    
+- name: Connor Yates
+  title: phd
+  profile_page: false
+  website: https://web.engr.oregonstate.edu/~yatesco/
+  period:
+    start: 2018-04-01
+    end: 2022-12-01
+  next: U.S. Naval Research Laboratory

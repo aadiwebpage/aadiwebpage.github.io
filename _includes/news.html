@@ -1,0 +1,8 @@
+
+{% capture content %}
+{% for note in include.news %}
+* ({{ note.date | localize: "%B %Y" }}) {{ note['en'] }}
+{% endfor %}
+{% endcapture %}
+
+{{ content | markdownify }}

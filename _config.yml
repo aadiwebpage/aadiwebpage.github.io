@@ -18,7 +18,8 @@ plugins:
   - jekyll-scholar
 
 header_pages:
-  - team.md
+  #- team.md
+  - people.html
   - research.md
   - publications.md
 
@@ -33,8 +34,8 @@ scholar:
 
 # Theme-specific settings
 
-minima:
-  skin: classic
+#minima:
+#  skin: classic
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #

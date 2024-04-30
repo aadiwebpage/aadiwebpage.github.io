@@ -3,6 +3,7 @@ layout: publications
 title: Publications
 permalink: /publications/
 years: [
+2024,
 2023,
 2022,
 2021,
