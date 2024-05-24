@@ -10,30 +10,226 @@
 # The next field must contain both english (en) and french (fr) translations.
 # People will be sorted by period.end
 
+# Doctoral
+
 - name: Nick Zerbel
   title: phd
   picture: nick
   website: https://nicholaszerbel.wordpress.com/
   profile_page: false
   period:
-    start: 2018-08-31
-    end: 2023-09-01
+    end: 2023
   next: Research Assistant @ Mila
-
-- name: Andrew Festa
-  title: master
-  profile_page: false
-  website: https://www.linkedin.com/in/andrew-festa
-  period:
-    start: 2021-05-01
-    end: 2023-09-01
-  next: Industry
     
+
 - name: Connor Yates
   title: phd
   profile_page: false
   website: https://web.engr.oregonstate.edu/~yatesco/
   period:
-    start: 2018-04-01
-    end: 2022-12-01
+    end: 2022
   next: U.S. Naval Research Laboratory
+
+
+- name: Golden Rockefeller
+  title: phd
+  profile_page: false
+  website: https://www.goldenrockefeller.com/
+  period: 
+    end: 2022
+  next: Principal AI Software Engineer at Northrop Grumman
+
+
+- name: Shauharda (Shaw) Khadka
+  title: phd
+  profile_page: false
+  website: https://www.linkedin.com/in/shauharda-shaw-khadka-phd-336a3041
+  period: 
+    end: 2019
+  next: Microsoft
+
+
+- name: Carrie Rebhuhn
+  title: phd
+  website: https://www.linkedin.com/in/carrie-rebhuhn-945a3192
+  period: 
+    end: 2017
+  next: MITRE
+
+
+- name: Logan Yliniemi
+  title: phd
+  website: https://www.linkedin.com/in/logan-yliniemi
+  period: 
+    end: 2015
+  next: Zoox
+
+
+- name: Atil Iscen
+  title: phd
+  website: https://www.linkedin.com/in/atil-iscen-32737945
+  period: 
+    end: 2014
+  next: Google
+
+
+- name: Mitch Colby
+  title: phd
+  website: https://www.linkedin.com/in/mitchell-colby
+  period: 
+    end: 2014
+  next: Scientific Systems
+
+
+- name: Chris Holmes Parker
+  title: phd
+  website: https://oksi.ai/leadership/
+  period: 
+    end: 2013
+  next: OKSI
+
+
+- name: Daniel Hennes
+  title: phd
+  website: https://www.linkedin.com/in/daniel-hennes-b84b59132
+  period: 
+    end: 2013
+  next: Engage
+
+
+- name: Max Salichon
+  title: phd
+  website: https://www.researchgate.net/scientific-contributions/Max-Salichon-70798345
+  period:
+    end: 2010
+  next: Engage
+
+
+- name: Matt Knudson
+  title: phd
+  website: https://www.linkedin.com/in/matt-knudson-7a327a80
+  period:
+    end: 2009
+  next: National Aeronautics and Space Administration
+
+
+# Masters
+
+- name: Andrew Festa
+  title: master
+  website: https://www.linkedin.com/in/andrew-festa
+  period:
+    end: 2023
+  next: Industry
+
+
+- name: Nathan Hewitt
+  title: master
+  website: https://nhewitt99.github.io/
+  period:
+    end: 2023
+  next: Booz Allen Hamilton
+
+
+- name: Reid Christopher
+  title: master
+  website: https://www.linkedin.com/in/reid-mason-christopher
+  period:
+    end: 2021
+  next: Booz Allen Hamilton
+
+
+- name: Enna Sachdeva
+  title: master
+  website: https://www.linkedin.com/in/enna-sachdeva
+  period:
+    end: 2020
+  next: Honda Research Institute, USA
+
+
+- name: Yathartha Tuladhar
+  title: master
+  website: https://www.researchgate.net/profile/Yathartha_Tuladhar
+  period:
+    end: 2019
+  next: Torc Robotics
+
+
+- name: Eric Klinkhammer
+  title: master
+  website: https://eklinkhammer.github.io/
+  period:
+    end: 2018
+  next: Klinkhammer Acoustical, Inc.
+
+
+- name: Drew Wilson
+  title: master
+  website: https://www.linkedin.com/in/andrewwilsonce
+  period:
+    end: 2017
+  next: Industry
+
+
+- name: Brandon Gigous
+  title: master
+  website: https://www.linkedin.com/in/bgigous
+  period:
+    end: 2017
+  next: Boulder Imaging
+
+
+- name: Aida Rahmattalabi
+  title: master
+  website: https://www.linkedin.com/in/aida-rahmattalabi-23a4ab4a
+  period:
+    end: 2016
+  next: Sony AI
+
+
+- name: Andrew Gabler
+  title: master
+  website: https://www.linkedin.com/in/andrewjgabler
+  period:
+    end: 2015
+  next: FlashCut CNC
+
+
+- name: Sepideh Kharaghani
+  title: master
+  website: https://ca.linkedin.com/in/sepideh-kharaghani-59b077b9
+  period:
+    end: 2015
+  next: ServiceNow
+
+
+- name: Beatrice Moissinac
+  title: master
+  website: https://www.linkedin.com/in/bmoissinac
+  period:
+    end: 2013
+  next: Okta
+
+
+- name: William Curran
+  title: master
+  website: https://www.linkedin.com/in/william-curran-101b2427
+  period:
+    end: 2013
+  next: MITRE
+
+
+- name: Stephen Sills
+  title: master
+  website: https://www.linkedin.com/in/stephen-sills-74179649
+  period:
+    end: 2012
+  next: Olympus Controls
+
+
+- name: Ehsan Nasroullahi
+  title: master
+  website: https://www.linkedin.com/in/ehsanmn
+  period:
+    end: 2012
+  next: Anduril Industries
