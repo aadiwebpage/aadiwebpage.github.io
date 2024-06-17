@@ -10,9 +10,9 @@ description: >
 
 # Build settings
 
-theme: minima
+baseurl: "/~ktumer"
 
-baseurl: "/~dixitg"
+theme: minima
 
 plugins:
   - jekyll-feed
