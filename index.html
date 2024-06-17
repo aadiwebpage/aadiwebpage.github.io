@@ -4,54 +4,62 @@ permalink: /
 title: 
 ---
 
-<div align="center">     <table align="center">        <tr>    <td width="25%">   <img width="100%" src="/assets/images/bios/kagan.png"> </td> <td width="75%">  
-    I am a professor at the <a href="https://engineering.oregonstate.edu/people/kagan-tumer">Oregon State University</a>.  
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+<div align="center">     <table align="center">        <tr>    <td width="25%">   <img width="100%" src="{{site.baseurl}}/assets/images/bios/kagan.png"> </td> <td width="75%">  
+    Kagan Tumer is the director of the <a href="https://engineering.oregonstate.edu/CoRIS">Collaborative Robotics and Intelligent Systems (CoRIS) Institute</a>, and a professor in the School of Mechanical, Industrial and Manufacturing Engineering at <a href="https://engineering.oregonstate.edu/people/kagan-tumer">Oregon State University</a>.
     
+    <br /><br />
+
+    <ul class="styleul">
+      <li>Phone: (541) 737-9899</li>
+      <li>Fax: (541) 737-2600</li>
+      <li>E-mail: <a href="mailto:kagan.tumer@oregonstate.edu">kagan.tumer@oregonstate.edu</a></li>
+      <li>Office: 314, Graf Hall</li>
+      <li>Mailing address: 204 Rogers Hall, Corvallis, OR 97331-6001</li>
+    </ul>
     </td></tr> 
-     .
     </table></div>    
 
 
-<h2>News</h2>
+<br /><br /><br />
 
-{% assign news = site.data.news | where: "hidden", nil | sort: 'date' | reverse %}
-{% include news.html news=news %}
+<div class="listen-desc">
 
-<!--
-<h2>Research Talk (2023)</h2>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y20ICd1voEM?si=eCA1vVwSlgEHS9Qt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h2>Recent Research Talk (2023)</h2>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-7sctG9f1As?si=h9WnQrip-8_vc0Tk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
- 
-## Recent Work 
-
-<div align="center">     <table align="center">        <tr>    <td width="33%">  <a href="https://sites.google.com/view/relmm"><h4>Autonomous real-world Reinforcement learning </h4><img width="100%" src="/assets/projects/ReLMM/complex_room_short.gif">
-</a>
- </td> <td width="66%">  
-We study how robots can autonomously learn skills that require a combination of navigation and grasping. While reinforcement learning in principle provides for automated robotic skill learning, in practice reinforcement learning in the real world is challenging and often requires extensive instrumentation and supervision. Our aim is to devise a robotic reinforcement learning system for learning navigation and manipulation together, in an autonomous way without human intervention, enabling continual learning under realistic assumptions. Our proposed system, ReLMM, can learn continuously on a real-world platform without any environment instrumentation, without human intervention, and without access to privileged information, such as maps, objects positions, or a global view of the environment. Our method employs a modularized policy with components for manipulation and navigation, where manipulation policy uncertainty drives exploration for the navigation controller, and the manipulation module provides rewards for navigation. We evaluate our method on a room cleanup task, where the robot must navigate to and pick up items scattered on the floor. After a grasp curriculum training phase, ReLMM can learn navigation and grasping together fully automatically, in around 40 hours of autonomous real-world training.
-    </td>	</tr> </table></div>
-
-<div align="center">     <table align="center">        <tr>    <td width="33%"> 
-<a href="https://arxiv.org/abs/2104.11707">
-<h4>Generalization across robots via inferring morphology</h4>
-  <img width="100%" src="/assets/projects/anymorph/anymorph_prompt.gif"> 
-  </a>
-  </td> <td width="66%"> 
-The prototypical approach to reinforcement learning involves training policies tailored to a particular agent from scratch for every new morphology. Recent work aims to eliminate the re-training of policies by investigating whether a morphology-agnostic policy, trained on a diverse set of agents with similar task objectives, can be transferred to new agents with unseen morphologies without re-training. This is a challenging problem that required previous approaches to use hand-designed descriptions of the new agent's morphology. Instead of hand-designing this description, we propose a data-driven method that learns a representation of morphology directly from the reinforcement learning objective. Ours is the first reinforcement learning algorithm that can train a policy to generalize to new agent morphologies without requiring a description of the agent's morphology in advance. We evaluate our approach on the standard benchmark for agent-agnostic control, and improve over the current state of the art in zero-shot generalization to new agents. Importantly, our method attains good performance without an explicit description of morphology. 
-      </td>	</tr> </table></div>
-   
-<div align="center">     <table align="center">        <tr>    <td width="33%">   
-<a href="https://sites.google.com/view/surpriseminimization">
-<h4>Entropy minimization for emergent behaviour</h4>
-<img width="100%" src="/assets/projects/SMiRL/robotsurprise_stacked.png">   <img width="100%" src="/assets/projects/SMiRL/miniGrid/minigrid-maze-random-count.gif"></a> </td> <td width="66%">
+<p>
+  The number of large complex AI systems composed of many interacting subsystems has exploded over the last decade. Spurred by the ever increasing size, interconnectivity and complexity of systems on one hand and the miniaturization and affordability of computing power on the other, new paradigms to managing such systems are emerging. Coordinating thousands of subsystems in dynamic and stochastic environments, an idea that a mere decade ago would have been outlandish, is not only possible, but imperative today. Indeed, the technological bottlenecks today are due to the lack of mathematics and algorithms to manage and coordinate such systems rather than difficulties associated with building them. 
+</p>
   
-All living organisms carve out environmental niches within which they can maintain relative predictability amidst the ever-increasing entropy around them [schneider1994, friston2009]. Humans, for example, go to great lengths to shield themselves from surprise --- we band together in millions to build cities with homes, supplying water, food, gas, and electricity to control the deterioration of our bodies and living spaces amidst heat and cold, wind and storm. The need to discover and maintain such surprise-free equilibria has driven great resourcefulness and skill in organisms across very diverse natural habitats. Motivated by this, we ask: could the motive of preserving order amidst chaos guide the automatic acquisition of useful behaviors in artificial agents?      
-      </td>	</tr> </table></div>
--->
+<p>
+  Our work in the Autonomous Agents and Distributed Intelligence Lab is aimed squarely at solving these issues. Specifically, we focus on collective decision-making and multiagent coordination to satisfy long-term, dynamic, opaque, and possibly ill-defined objectives.
+  <br>
+  Broadly, we develop methods that address the following research areas:
+</p>
+<br />
+
+<h1>Reward Shaping</h1>
+
+Realizing cooperation, rather than sustaining it, is often more challenging since it requires agents to simultaneously stumble upon good joint-actions. This is aggravated when the feedback for success is a single, sparsely available, team-wide signal — agents must learn to isolate the impact of their actions on the team's performance. 
+By giving agents the capacity to consider their impact, research in reward shaping is focused on building tools that distill the team-wide signal into individual, densely available, and aligned rewards.
+
+<br /><br />
+
+<h1>Multi-Objective Multiagent Decision-Making</h1>
+
+Many complex real-world problems are naturally characterized by multiple objectives. For instance, to manage traffic in an urban area, one might want to maximize throughput, minimize latency, enforce fairness for all the drivers, and minimize impact on the environment. Research in the multiagent multi-objective setting aims to facilitate collective decision-making to produce better tools for cooperation. Multi-objective techniques centered around balancing trade-offs arising from a user's preferences and utilities can foster a human-eccentric approach to decision-making.
+
+<br /><br />
+
+<h1>Diversity and Teaming</h1>
+
+An agent would benefit from understanding the actions and responses of agents in its team. To sustain mutual cooperation, agents must learn diverse strategies that can be conditioned on the task dynamics, team composition and behaviors of other agents. 
+Research in this thread focuses on informed discovery, preservation and improvement of diverse behaviors that allow agents to radically adapt to the needs of their team. 
+
+
+{% include widgets/divider.html %}
+
+
+{% include widgets/divider.html %}
+
+
+
+</div>
+

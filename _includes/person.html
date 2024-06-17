@@ -1,8 +1,8 @@
 {% if include.picture != "" and include.picture != nil %}
 <picture>
-    <source srcset="/assets/images/bios_compressed/{{include.picture}}.webp" type="image/webp">
-    <source srcset="/assets/images/bios_compressed/{{include.picture}}.jpg" type="image/jpeg">
-    <img src="/assets/images/bios_compressed/{{include.picture}}.jpg" loading="lazy" height="100" width="100" alt="Picture of {{include.name}}">
+    <source srcset="{{site.baseurl}}/assets/images/bios_compressed/{{include.picture}}.webp" type="image/webp">
+    <source srcset="{{site.baseurl}}/assets/images/bios_compressed/{{include.picture}}.jpg" type="image/jpeg">
+    <img src="{{site.baseurl}}/assets/images/bios_compressed/{{include.picture}}.jpg" loading="lazy" height="100" width="100" alt="Picture of {{include.name}}">
 </picture>
 {% endif %}
 

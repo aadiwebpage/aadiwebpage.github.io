@@ -12,6 +12,7 @@ description: >
 
 theme: minima
 
+baseurl: "/~dixitg"
 
 plugins:
   - jekyll-feed
@@ -19,10 +20,10 @@ plugins:
   - jekyll-scholar
 
 header_pages:
-  #- team.md
   - people.html
-  - research.md
+  # - research.md
   - publications.md
+  - teaching.md
 
 collections:
   team:
