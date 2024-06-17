@@ -33,8 +33,9 @@
 {% elsif entry.type contains "article"  %}
 <span class="paper-venue">Journal: {{ entry.journal | escape }}</span>
 {% endif %}
+{% if entry.url %}
 <a class="paper-pdf-url" download href="{{ entry.biburl }}">[ bibtex ]</a>
 <a class="paper-pdf-url" href="{{ entry.url }}">[ pdf ]</a>
-
+{% endif %}
 <br /><br />
 <!--<pre>{{ entry.bibtex }}</pre>-->
