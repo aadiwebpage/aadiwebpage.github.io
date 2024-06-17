@@ -51,8 +51,9 @@
   period:
     start: 2023-12-01
   topics:
-    - Reinforcement learning
-    - Safety
+    - Asymmetric Cooperation
+    - Multi-Objective Decision-making
+    - Quality-Diversity
    
 - name: Joshua Cook
   title: phd
@@ -61,8 +62,8 @@
   period:
     start: 2019-09-01
   topics:
-    - Reinforcement learning
-    - Representation learning
+    - Ad-Hoc Learning
+    - Team Formation
       
 - name: Anna Nickelson
   title: phd
@@ -71,8 +72,8 @@
   period:
     start: 2020-01-01
   topics:
-    - Deep Reinforcement Learning
-    - Robotics
+    - Multi-Objective Optimization
+    - AI Ethics
       
 - name: A. Alp Aydeniz
   title: phd
@@ -82,8 +83,7 @@
     start: 2020-09-01
   topics:
     - Deep Reinforcement Learning
-    - Robotics
-    - Sim2Real
+    - Entropy-based Novelty Search
       
 - name: Everardo Gonzalez
   title: phd
@@ -93,6 +93,7 @@
     start: 2021-09-01
   topics:
     - Reinforcement Learning
+    - Sim2Real
 
 - name: Raghav Thakar
   title: phd
@@ -101,9 +102,8 @@
   period:
     start: 2023-09-02
   topics:
-    - Deep Learning
-    - Computer Vision
-    - Signal Processing
+    - Reward Shaping
+    - Multi-Objective Evolutionary Algorithms
       
 - name: Manuel Agraz Vallejo
   title: phd
@@ -112,7 +112,7 @@
   period:
     start: 2023-10-02
   topics:
-    - Deep Reinforcement Learning
+    - Sequential Modeling
     - Unsupervised Reinforcement Learning
       
 - name: Sidd Viswanathan
@@ -122,4 +122,5 @@
   period:
     start: 2023-10-15
   topics:
-    - Reinforcement Learning
+    - Inter-Agent Diversity
+    - Deep Reinforcement Learning
