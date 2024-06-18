@@ -51,3 +51,9 @@ permalink: /people/
 
 {% assign alumni_masters = site.data.alumni | where: "title", "master" %}
 {% include people_alumni.html people = alumni_masters %}
+
+
+<h3>Undergraduate Research Assistants</h3>
+
+{% assign alumni_undergrads = site.data.alumni | where: "title", "undergrad" %}
+{% include people_alumni.html people = alumni_undergrads %}

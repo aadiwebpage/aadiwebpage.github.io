@@ -1,0 +1,27 @@
+<!-- check  -->
+{%- assign author = include.author -%}
+{% assign author_parts = include.author | split: ' ' %}
+{% assign first_name = author_parts[0] %}
+{% assign last_name_parts = author_parts | slice: 1, author_parts.size | join: ' ' %}
+{% assign last_name = last_name_parts | split: ' ' | last %}
+
+{% assign member = site.data.people | where: "name", author %}
+{% assign alumni = site.data.alumni | where: "name", author %}
+
+{%- assign delim = include.delim -%}
+
+{%- if member[0] -%}
+    <a href="{{member[0].website}}" target="_blank">
+        {{- first_name | truncate: 2, "."}} {{ last_name_parts -}}
+    </a>{{ delim }}
+{%- elsif alumni[0] -%}
+    <a href="{{alumni[0].website}}" target="_blank">
+        {{- first_name | truncate: 2, "."}} {{ last_name_parts -}}
+    </a>{{ delim }}
+{%- elsif site.data.coauthors[last_name] -%}
+    <a href="{{site.data.coauthors[last_name].url}}" target="_blank">
+        {{- first_name | truncate: 2, "."}} {{ last_name_parts -}}
+    </a>{{ delim }}
+{% else %}
+        {{- first_name | truncate: 2, "."}} {{ last_name_parts -}} {{ delim }}
+{% endif %}

@@ -9,10 +9,10 @@
 <p>{{ entry.author }}</p>
 <p>{{ entry.title }}</p>
 <p>{{ entry.url }}</p>
+<p>{{ entry.key }}</p>
 -->
-
 <!--<a class="paper-link" href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a>-->
-<span class="paper-title">{{ entry.title | escape }}</span>
+<span class="paper-title" id="{{ entry.key }}">{{ entry.title | escape }}</span>
 <br />
 
 <span class="paper-authors">

@@ -1,8 +1,20 @@
 <!-- check  -->
 {%- assign author = include.author -%}
 {%- assign delim = include.delim -%}
-{%- if site.data.coauthors[author.last] -%}
-    <a href="{{site.data.coauthors[author.last].url}}" target="_blank">
+{%- assign fullauthor = author.first | append: ' ' | append: author.last -%}
+{% assign member = site.data.people | where: "name", fullauthor %}
+{% assign alumni = site.data.alumni | where: "name", fullauthor %}
+
+{%- if member[0] -%}
+    <a href="{{member[0].website}}">
+        {{- author.first | truncate: 2, "."}} {{ author.last -}}
+    </a>{{ delim }}
+{%- elsif alumni[0] -%}
+    <a href="{{alumni[0].website}}">
+        {{- author.first | truncate: 2, "."}} {{ author.last -}}
+    </a>{{ delim }}
+{%- elsif site.data.coauthors[author.last] -%}
+    <a href="{{site.data.coauthors[author.last].url}}">
         {{- author.first | truncate: 2, "."}} {{ author.last -}}
     </a>{{ delim }}
 {% else %}

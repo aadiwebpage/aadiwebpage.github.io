@@ -81,7 +81,7 @@
   next: Scientific Systems
 
 
-- name: Chris Holmes Parker
+- name: Chris HolmesParker
   title: phd
   website: https://oksi.ai/leadership/
   period: 
@@ -102,7 +102,7 @@
   website: https://www.researchgate.net/scientific-contributions/Max-Salichon-70798345
   period:
     end: 2010
-  next: Engage
+  next: Industry
 
 
 - name: Matt Knudson
@@ -168,7 +168,7 @@
   website: https://www.linkedin.com/in/andrewwilsonce
   period:
     end: 2017
-  next: Industry
+  next: Ingram Content Group
 
 
 - name: Brandon Gigous
@@ -233,3 +233,73 @@
   period:
     end: 2012
   next: Anduril Industries
+
+
+
+# Undergraduate Research Assistants
+
+- name: Samantha Kammerer
+  title: undergrad
+  website: https://www.linkedin.com/in/sam-kammerer
+  period:
+    end: 2023
+
+- name: Mariangeline Merced
+  title: undergrad
+  website: 
+  period:
+    end: 2022
+
+- name: Tristan Scheiner
+  title: undergrad
+  website: https://www.linkedin.com/in/tristan-scheiner-4a5223305
+  period:
+    end: 2022
+
+- name: Alexandra Bejarano
+  title: undergrad
+  website: https://www.linkedin.com/in/alexandra-bejarano-04474b11a
+  period:
+    end: 2018
+
+- name: Theodore Duchow-Pressley
+  title: undergrad
+  website: https://www.linkedin.com/in/theodore-duchow-pressley
+  period:
+    end: 2018
+
+- name: Abby Van Soest
+  title: undergrad
+  website: https://www.researchgate.net/profile/Abby-Van-Soest
+  period:
+    end: 2016
+
+- name: Tobi Ogunyale
+  title: undergrad
+  website:
+  period:
+    end: 2016
+
+- name: Paul Filitchkin
+  title: undergrad
+  website: http://www.paulsf.com/
+  period:
+    end: 2009
+
+- name: Melissa Jensen-Morgan
+  title: undergrad
+  website:
+  period:
+    end: 2008
+
+- name: Rahul Tewari
+  title: undergrad
+  website:
+  period:
+    end: 2007
+
+- name: Rajiv Ranjan
+  title: undergrad
+  website:
+  period:
+    end: 2007

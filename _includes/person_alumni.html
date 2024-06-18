@@ -3,9 +3,13 @@
     {{include.name}}
 </a>
 {% else %}
-    {{include.name}}
+{{include.name}}
 {% endif %}
 <!--
 ({{include.period.start | localize: "%b %Y"}} - {{include.period.end | localize: "%b %Y"}}) -- {{include.next}}
 -->
+{% if include.next != "" and include.next != nil %}
 ({{include.period.end}}) — {{include.next}}
+{% else %}
+({{include.period.end}})
+{% endif %}

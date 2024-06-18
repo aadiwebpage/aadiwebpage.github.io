@@ -10,7 +10,7 @@ description: >
 
 # Build settings
 
-baseurl: "/~ktumer"
+baseurl: "/~dixitg"
 
 theme: minima
 
@@ -30,9 +30,13 @@ collections:
 
 scholar:
   bibliography_template: bib
-  style: current-opinion
+  style: acm-sig-proceedings
   sort_by: year
   order: descending
+  relative: "publications/"
+
+# !! jekyll-scholar is being used with a modified utilities.rb file to support links in multiple citations
+# !! source: https://github.com/sneakers-the-rat/jekyll-scholar/commit/4a3bc1f9e2fff956ff585d2b8c14d2d825b5ca5b
 
 # Theme-specific settings
 

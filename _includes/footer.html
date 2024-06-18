@@ -1,28 +1,23 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ " /" | relative_url }}"></data>
 
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-      {%- if site.author %}
+        {%- if site.author %}
         <ul class="contact-list">
-          <li class="p-name">School of MIME</li>
           <li class="p-name">Autonomous Agents and Distributed Intelligence Lab</li>
           <li class="p-name">Oregon State University</li>
           <li class="p-name">Corvallis, Oregon 97331</li>
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {%- endif %}
         </ul>
-      {%- endif %}
+        {%- endif %}
       </div>
-      <div class="footer-col footer-col-2" style="display: block;">
-      </div>
-      <div class="footer-col footer-col-3">
-        <div class="in-parent justify-center align-center">
-          <img width="70%" style="padding-top: 0%; max-width: 200px;" src="{{site.baseurl}}/assets/images/osu_b.png">
-        </div>
+      <div class="footer-col footer-col-2">
+        <img width="100%" style="padding-top: 0%; max-width: 200px;" src="{{site.baseurl}}/assets/images/osu_b.png">
       </div>
     </div>
 

@@ -17,12 +17,17 @@ title:
         <br /><br />
 
         <ul class="styleul">
-          <li>Phone: (541) 737-9899</li>
-          <li>Fax: (541) 737-2600</li>
           <li>E-mail: <a href="mailto:kagan.tumer@oregonstate.edu">kagan.tumer@oregonstate.edu</a></li>
-          <li>Office: 314, Graf Hall</li>
           <li>Mailing address: 204 Rogers Hall, Corvallis, OR 97331-6001</li>
+          <li><a href="bio/">Bio</a></li>
+          <li><a href="{{site.baseurl}}/assets/files/ktumerCV.pdf" target="_blank">CV</a></li>
         </ul>
+        <br />
+        <p>
+          If you were looking for Kagan Tumer, the <a href="http://kagantumer.com/"><b>science fiction author</b>, click
+            here</a>, or follow me on <a href="https://twitter.com/kagan_tumer/">twitter</a> or <a
+            href="https://www.goodreads.com/kagan_tumer/">goodreads</a>.
+        </p>
       </td>
     </tr>
   </table>
@@ -31,52 +36,131 @@ title:
 
 <br />
 <div>
-  <p>
-    The number of large complex AI systems composed of many interacting subsystems has exploded over the last decade.
-    Spurred by the ever increasing size, interconnectivity and complexity of systems on one hand and the miniaturization
-    and affordability of computing power on the other, new paradigms to managing such systems are emerging. Coordinating
-    thousands of subsystems in dynamic and stochastic environments, an idea that a mere decade ago would have been
-    outlandish, is not only possible, but imperative today. Indeed, the technological bottlenecks today are due to the
-    lack of mathematics and algorithms to manage and coordinate such systems rather than difficulties associated with
-    building them.
-  </p>
+  <h1>Research</h1>
 
   <p>
-    Our work in the Autonomous Agents and Distributed Intelligence Lab is aimed squarely at solving these issues.
-    Specifically, we focus on collective decision-making and multiagent coordination to satisfy long-term, dynamic,
+    Our work in the Autonomous Agents and Distributed Intelligence Lab focuses on collective decision-making and
+    multiagent coordination to satisfy long-term, dynamic,
     opaque, and possibly ill-defined objectives.
-    <br>
     Broadly, we develop methods that address the following research areas:
   </p>
-  <br />
 
-  <h1>Reward Shaping</h1>
+  <ul class="styleul">
+    <li>Multiagent Learning: Who learns what?</li>
+    <li>Co-Evolutionary Algorithms: Who impacts whose fitness?</li>
+    <li>Artificial General Intelligence: What matters when?</li>
+    <li>Long-term learning and teaming: What behavior supports future intent?</li>
+    <li>Societal impact of AI and robotics: How to insert societal considerations into AI systems? </li>
+  </ul>
 
-  Realizing cooperation, rather than sustaining it, is often more challenging since it requires agents to simultaneously
-  stumble upon good joint-actions. This is aggravated when the feedback for success is a single, sparsely available,
-  team-wide signal — agents must learn to isolate the impact of their actions on the team's performance.
-  By giving agents the capacity to consider their impact, research in reward shaping is focused on building tools that
-  distill the team-wide signal into individual, densely available, and aligned rewards.
+  <h3>Multiagent Coordination and Reward Shaping</h2>
 
-  <br /><br />
+    <p>Achieving coordination in large multiagent systems is a challenging problem because it often requires agents to
+      simultaneously stumble upon good joint-actions. This problem becomes even more pronounced when the feedback for
+      success is a single, sparsely available, team-wide signal — agents must learn to isolate the impact of their
+      actions
+      on the team's performance {% cite DBLP:journals/advcs/WolpertT01 DBLP:journals/aamas/AgoginoT08
+      DBLP:conf/atal/DevlinYKT14 --file tumer.bib %}. Reward shaping approaches address these difficulties by providing
+      agents with the
+      capability to evaluate the impact of their contributions on system performance {% cite
+      DBLP:conf/atal/RockefellerKT20 DBLP:conf/mrs/YatesAT21 DBLP:conf/atal/CookST23 --file tumer.bib %}.</p>
 
-  <h1>Multi-Objective Multiagent Decision-Making</h1>
+    <br />
 
-  Many complex real-world problems are naturally characterized by multiple objectives. For instance, to manage traffic
-  in an urban area, one might want to maximize throughput, minimize latency, enforce fairness for all the drivers, and
-  minimize impact on the environment. Research in the multiagent multi-objective setting aims to facilitate collective
-  decision-making to produce better tools for cooperation. Multi-objective techniques centered around balancing
-  trade-offs arising from a user's preferences and utilities can foster a human-eccentric approach to decision-making.
+    <h3>Multi-Objective Multiagent Decision-Making</h3>
 
-  <br /><br />
+    <p>Many complex real-world problems are naturally characterized by multiple objectives. For instance, to manage
+      traffic
+      in an urban area, one might want to maximize throughput, minimize latency, enforce fairness for all the drivers,
+      and
+      minimize impact on the environment. Research in multiagent multi-objective learning aims to facilitate collective
+      decision-making in real world problems {% cite DBLP:conf/gecco/DixitT23 DBLP:conf/icra/NickelsonTS23
+      DBLP:journals/soco/YliniemiT16 --file tumer.bib %}. In addition, multi-objective learning is a natural framework
+      for
+      introducing
+      human-centered and societal considerations into problem formulations {% cite DBLP:conf/gecco/NickelsonT24 --file
+      tumer.bib %}.</p>
 
-  <h1>Diversity and Teaming</h1>
+    <br />
 
-  An agent would benefit from understanding the actions and responses of agents in its team. To sustain mutual
-  cooperation, agents must learn diverse strategies that can be conditioned on the task dynamics, team composition and
-  behaviors of other agents.
-  Research in this thread focuses on informed discovery, preservation and improvement of diverse behaviors that allow
-  agents to radically adapt to the needs of their team.
+    <h3>Diversity and Teaming</h3>
+
+    <p>As teams get larger and tasks become more complex, agents need to better understand the actions and responses of
+      other
+      agents in their teams. Also, to sustain mutual cooperation, agents must learn diverse strategies that can be
+      conditioned on the task dynamics, team composition, and behaviors of other agents {% cite DBLP:conf/atal/DixitT23
+      DBLP:conf/gecco/CookT21 DBLP:conf/gecco/DixitGT22 --file tumer.bib %}. Research in this thread focuses
+      on
+      informed discovery, preservation, and improvement of diverse behaviors that allow agents to radically adapt to the
+      needs of their teams {% cite DBLP:conf/gecco/AydenizLT23 DBLP:conf/gecco/DixitT24 --file tumer.bib %}.</p>
 
 
+    <br />
+    {% include widgets/divider.html %}
+
+    <h1>Awards</h1>
+    <ul class="styleul" >
+      <li>
+        <b>Best Real World Application Paper Award</b>: “Evolving Large Scale UAV Communication Systems”
+        <br />
+        {% include functions/bib/author_helper.liquid author="Adrian Agogino" delim=', ' %}
+        {% include functions/bib/author_helper.liquid author="Chris HolmesParker" delim=', and ' %}
+        {% include functions/bib/author_helper.liquid author="Kagan Tumer" delim='' %}
+        <p>GECCO 2012.</p>
+      </li>
+      <li>
+        <b>Best Paper Award</b>: “Distributed Agent-Based Air Traffic Flow Management”
+        <br />
+        {% include functions/bib/author_helper.liquid author="Kagan Tumer" delim=' and ' %}
+        {% include functions/bib/author_helper.liquid author="Adrian Agogino" delim='' %}  
+        <p>AAMAS 2007 (Best paper out of 531 submissions). </p>      
+      </li>
+
+      <li>
+        Nomination for Best Paper Award: “Informed Diversity Search for Learning in Asymmetric Multiagent Systems”
+        <br />
+        {% include functions/bib/author_helper.liquid author="Gaurav Dixit" delim=' and ' %}
+        {% include functions/bib/author_helper.liquid author="Kagan Tumer" delim='' %}
+        <p>GECCO 2024.</p>
+      </li>
+      <li>
+        Nomination for Best Paper Award: “Reinforcing Inter-Class Dependencies in the Asymmetric Island Model”
+        <br />
+        {% include functions/bib/author_helper.liquid author="Andrew Festa" delim=', ' %}
+        {% include functions/bib/author_helper.liquid author="Gaurav Dixit" delim=', and ' %}
+        {% include functions/bib/author_helper.liquid author="Kagan Tumer" delim='' %}
+        <p>GECCO 2024.</p>
+      </li>
+      <li>
+        Best Paper Award Finalist: “Diversifying behaviors for learning in Asymmetric Multiagent Systems”
+        <br />
+        {% include functions/bib/author_helper.liquid author="Gaurav Dixit" delim=', ' %}
+        {% include functions/bib/author_helper.liquid author="Everardo Gonzalez" delim=', and ' %}
+        {% include functions/bib/author_helper.liquid author="Kagan Tumer" delim='' %}
+        <p>GECCO 2022.</p>
+      </li>
+      <li>
+        Best Paper Award Finalist: “Evolving Memory-Augmented Neural Architectures for Deep Memory Problems”
+        <br />
+        {% include functions/bib/author_helper.liquid author="Shauharda Khadka" delim=', ' %}
+        {% include functions/bib/author_helper.liquid author="Jen Jen Chung" delim=', and ' %}
+        {% include functions/bib/author_helper.liquid author="Kagan Tumer" delim='' %}
+        <p>GECCO 2017.</p>
+      </li>
+      <li>
+        Best Real World Applications Paper Award Finalist: “Robust Neuro-Control for A Micro Quadrotor”
+        <br />
+        {% include functions/bib/author_helper.liquid author="Jack Shepherd III" delim=' and ' %}
+        {% include functions/bib/author_helper.liquid author="Kagan Tumer" delim='' %}
+        <p>GECCO 2010.</p>
+      </li>
+      <li>
+        Best Real World Applications Paper Award Finalist: “A Neuro-Evolutionary Approach to Micro Aerial Vehicle
+        Control”
+        <br />
+        {% include functions/bib/author_helper.liquid author="Max Salichon" delim=' and ' %}
+        {% include functions/bib/author_helper.liquid author="Kagan Tumer" delim='' %}
+        <p>GECCO 2010.</p>
+      </li>
+    </ul>
 </div>
