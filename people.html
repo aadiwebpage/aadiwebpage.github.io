@@ -4,17 +4,17 @@ title: People
 permalink: /people/
 ---
 
-<h2>Principal Investigator</h2>
+<h3>Principal Investigator</h3>
 
 {% assign pis = site.data.people | where: "title", "pi"  %}
 {% include people.html people = pis %}
 
-<h2>Postdocs</h2>
+<h3>Postdocs</h3>
 
 {% assign postdocs = site.data.people | where: "title", "postdoc"  %}
 {% include people.html people = postdocs %}
 
-<h2>PhD Students</h2>
+<h3>PhD Students</h3>
 
 {% assign phds = site.data.people | where: "title", "phd"  %}
 {% include people.html people = phds %}
@@ -27,7 +27,7 @@ permalink: /people/
 -->
 
 
-<h2>REUs / Visiting Students</h2>
+<h3>REUs / Visiting Students</h3>
 
 {% assign interns = site.data.people | where: "title", "intern"  %}
 {% include people.html people = interns %}

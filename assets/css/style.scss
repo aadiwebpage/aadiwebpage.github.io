@@ -7,6 +7,47 @@ $on-laptop:        1200px;
 
 
 @import "{{site.theme}}";
+//@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+
+  
+body{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+  	color: #464b4e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #1f355e; 
+}
+
+.post-content {
+	margin-bottom: $spacing-unit;
+  
+	h2 {
+	  @include relative-font-size(1.6);
+  
+	  @include media-query($on-laptop) {
+		@include relative-font-size(1.45);
+	  }
+	}
+  
+	h3 {
+	  @include relative-font-size(1.27);
+  
+	  @include media-query($on-laptop) {
+		@include relative-font-size(1.275);
+	  }
+	}
+  
+	h4 {
+	  @include relative-font-size(1.25);
+  
+	  @include media-query($on-laptop) {
+		@include relative-font-size(1.125);
+	  }
+	}
+  }
 
 /*
  * People page
@@ -141,7 +182,7 @@ ul.people li p {
   
   .footer-col-wrapper {
     @include relative-font-size(0.9375);
-    color: $grey-color;
+    color: darken($brand-color, 45%);
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
   }
